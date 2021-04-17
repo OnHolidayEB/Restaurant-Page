@@ -151,69 +151,7 @@ header{
     font-size: 68px;
 }
 
-@media screen and (max-width: 500px) {
-    #title{
-        font-size: 45px;
-    }
 
-    #title:hover{
-        font-size: 48px;
-        cursor:pointer;
-    }
-    #title:active {
-        font-size: 40px;
-    }
-
-    #order{
-        font-size: 50px;
-        width: fit-content;
-    }
-
-    #order:hover{
-        font-size: 52px;
-        width: 31vw;
-        height: 31vw;
-        cursor:pointer;
-    }
-    #order:active{
-        font-size: 48px;
-        width: 28vw;
-        height: 28vw;
-    }
-
-    #main-img{
-        background-position-x: 60%;
-
-    }
-
-    #menu{
-        margin-left: 5px;
-    }
-
-    #about{
-        margin-right: 5px;
-        
-    }
-
-    .headerTab{
-        font-size: 28px;
-        width: 120px;
-    }
-    .headerTab:hover{
-        font-size: 30px;
-        cursor:pointer;
-    }
-    .headerTab:active{
-        font-size: 24px;
-    }
-
-    #text-wrapper{
-        flex-direction: column;
-
-    }
-
-    
-}
 
 #menu-title{
     font-size: 65px;
@@ -286,4 +224,62 @@ header{
     border-color: red;
     border-width: 5px ;
     border-style: solid;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #titleBtn{
+        font-size: 45px;
+    }
+
+    #titleBtn:active {
+        font-size: 40px;
+    }
+
+    #order{
+        font-size: 50px;
+        width: fit-content;
+    }
+
+    #order:active{
+        font-size: 48px;
+        width: 28vw;
+        height: 28vw;
+    }
+
+    #main-img {
+        background-position-x: 60%;
+
+    }
+
+    #menu{
+        margin-left: 5px;
+    }
+
+    #about{
+        margin-right: 5px;
+        
+    }
+
+    .headerBtn{
+        font-size: 20px;
+        width: 120px;
+    }
+    
+    .headerBtn:active{
+        font-size: 18px;
+    }
+
+    #text-wrapper{
+        flex-direction: column;
+
+    }
+
+    .item-title{
+        font-size: 22px;
+    }
+    
+    .item-desc{
+        font-size: 14px;
+    }
 }
