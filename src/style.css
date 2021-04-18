@@ -232,14 +232,22 @@ header{
         font-size: 45px;
     }
 
+    #titleBtn:hover {
+        font-size: 45px;
+    }
+
     #titleBtn:active {
         font-size: 40px;
     }
+
+   
 
     #order{
         font-size: 50px;
         width: fit-content;
     }
+
+    
 
     #order:active{
         font-size: 48px;
@@ -262,6 +270,11 @@ header{
     }
 
     .headerBtn{
+        font-size: 20px;
+        width: 120px;
+    }
+
+    .headerBtn:hover{
         font-size: 20px;
         width: 120px;
     }
